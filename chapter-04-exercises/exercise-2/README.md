@@ -4,3 +4,9 @@ Using the text-edit of your choice (e.g., Atom), create a new file called `READM
 In your `README.md` document, make a three column table of the current courses you are taking, with separate columns for course number (in **bold**), course title (in _italics_), and instructor name.
 
 Note that you can preview this Markdown in Atom to make sure it works correctly.
+
+| **Course Number** | _Course Title_ | Instructor Name |
+|:------------------|:---------------|:----------------|
+| **503**           | _ENGG_         | Pancakes        |
+| **609**           | _ENGG_         | Shiny Pancakes  |
+| **908**           | _COMS_         | Dirty Pancakes  | 
