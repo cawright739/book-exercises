@@ -11,7 +11,7 @@ Note that you can preview this Markdown in Atom to make sure it works correctly.
 
 # **_git commit_**
 
-**Usage** `git commit -m "[Type in the commit message]"`
+##### **Usage** `git commit -m "[Type in the commit message]"`
 
 - Records
 - Snapshots
