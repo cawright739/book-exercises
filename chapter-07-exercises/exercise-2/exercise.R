@@ -3,27 +3,31 @@
 # Create a vector `first_ten` that has the values 10 through 20 in it (using 
 # the : operator)
 
+first_ten <- 10:20
 
 # Create a vector `next_ten` that has the values 21 through 30 in it (using the 
 # seq() function)
 
+next_ten <- 21:30
 
 # Create a vector `all_numbers` by combining the previous two vectors
 
-
-# Create a variable `eleventh` that contains the 11th element in `all_numbers`
-
-
-# Create a vector `some_numbers` that contains the 2nd through the 5th elements 
-# of `all_numbers`
-
-
+all_numbers <- c(first_ten,next_ten)
+all_numbers
+# [1] 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
 
 # Create a vector `even` that holds the even numbers from 1 to 100
+
+even <- seq(2,100,by=2)
 
 
 # Using the `all()` function and `%%` (modulo) operator, confirm that all of the
 # numbers in your `even` vector are even
+
+
+check_even <- all(even%%2 == 0)
+
+
 
 
 
